@@ -1,0 +1,23 @@
+.listingPageBagBlock {
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px;
+  grid-template-rows: 260px 260px;
+  margin-left: 50px;
+  margin-top: 110px;
+  justify-items: center;
+
+  button:nth-child(n) {
+    margin-top: 10px;
+    background-color: orangered;
+    border-radius: 8px;
+  }
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  font-weight: bold;
+}

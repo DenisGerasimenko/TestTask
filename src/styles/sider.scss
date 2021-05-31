@@ -1,0 +1,70 @@
+.sider {
+  margin-left: 40px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  line-height: 1.5;
+  width: 250px;
+}
+.sider_category {
+  h3:nth-child(n) {
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 45px;
+  }
+  p:nth-child(n) {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  a:nth-child(n) {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+.sider_brand {
+  h3:nth-child(n) {
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 85px;
+   
+  }
+  p:nth-child(n) {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  a:nth-child(n) {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+.siderBrandColorBlue {
+  color: blue;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(204, 203, 203);
+}
+
+.sider_price {
+  h3:nth-child(n){
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 90px;
+  }
+}
+.siderPriceInputWidth {
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.underline {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(204, 203, 203);
+}
+
+
+select{
+  border: none;
+  transform: rotate(180deg);
+  margin-left: 50px;
+}
